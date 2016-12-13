@@ -1,0 +1,61 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+div#wrap{width:979px;height:629px;position:relative;overflow:hidden;background: url(../img/back.png)}
+div#header{width: 979px; height: 75px; float: left;}
+div#content{width: 979px; height: 500px; float: left;}
+div.separadorhorizontal{width: 979px; height: 8px; background: url(../img/horizontal.png) top center no-repeat; float: left;}
+div#footer{width: 979px; height: 38px; float: left;}
+a#menu {
+	margin:13px 19px;
+	display: block;
+	float: left;
+}
+.separadorpequenovertical{
+	background: url(../img/separadormenuvertical.png);
+	width: 8px;
+	height: 59px;
+	float: left;
+	margin-top: 8px;
+}
+#info{
+	margin: 14px 0 0 10px;
+	display: block;
+	width: 45px;
+	float: left;
+}
+#ayuda{
+	margin: 14px 0 0 10px;
+	display: block;
+	width: 45px;
+	float: left;
+}
+.tac{text-align: center;}
+#logoheader{padding: 10px;margin-top: 10px;margin-left: 169px;margin-right: 269px;float: left;}
+#anterior img{    margin: 15px 0 0 4px;}
+a.enlacemodulo {
+	margin: 22px 15px;
+	display: block;
+}
+.separadorvertical{
+	width: 8px;
+	height: 496px; background: url(../img/vertical.png);
+	float: left;
+}
+#contenedormenu{
+	float: left;
+}
+#logosanofi{float: right; margin-right: 20px}
+#logosanofi {
+	position: absolute;
+	right: 20px;
+	bottom: 10px
+}
+#codigo{
+	margin: 0 auto;
+	display: block;
+	margin-top: 11px;
+}
+#areadetrabajo{
+	    width: 884px;
+    height: 500px;
+    float: left;
+}
