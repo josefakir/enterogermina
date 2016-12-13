@@ -4,6 +4,38 @@ div#header{width: 979px; height: 75px; float: left;}
 div#content{width: 979px; height: 500px; float: left;}
 div.separadorhorizontal{width: 979px; height: 8px; background: url(../img/horizontal.png) top center no-repeat; float: left;}
 div#footer{width: 979px; height: 38px; float: left;}
+@font-face {
+    font-family: 'dream_mmaregular';
+    src: url('../fonts/dream_mma-webfont.woff2') format('woff2'),
+         url('../fonts/dream_mma-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'eurostileregular';
+    src: url('../fonts/eurosti-webfont.woff2') format('woff2'),
+         url('../fonts/eurosti-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'eurostilebold';
+    src: url('../fonts/eurostib-webfont.woff2') format('woff2'),
+         url('../fonts/eurostib-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'masqueregular';
+    src: url('../fonts/masque__-webfont.woff2') format('woff2'),
+         url('../fonts/masque__-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 a#menu {
 	margin:13px 19px;
 	display: block;
@@ -39,9 +71,10 @@ a.enlacemodulo {
 	width: 8px;
 	height: 496px; background: url(../img/vertical.png);
 	float: left;
+	    margin-left: 87px;
 }
 #contenedormenu{
-	float: left;
+    position: absolute;
 }
 #logosanofi{float: right; margin-right: 20px}
 #logosanofi {
@@ -58,4 +91,31 @@ a.enlacemodulo {
 	    width: 884px;
     height: 500px;
     float: left;
+     font-family: 'eurostileregular';
+     color: #fff;
+         font-size: 13pt;
+         line-height: 20px;
+}
+#areadetrabajo strong{
+	color: #ECDE21
+}
+h2{
+	    background: url(../img/backtitulo.png);
+    width: 382px;
+    font-family: 'masqueregular';
+    color: #fff;
+    padding: 12px 0 12px 13px;
+    margin: 20px 10px;
+    font-size: 21px
+}
+
+.bordea{
+	border: 2px solid #FFBE5A;
+	-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px; padding: 13px
+}
+.fl{float: left;}
+.clear{
+	clear: both;
 }
