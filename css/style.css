@@ -136,4 +136,9 @@ p.par {
     line-height: normal;
     font-size: 12pt;
 }
+h2.subtitulo2{
+	color:#00ffff;
+	font-family: 'masqueregular';
+	font-size: 16pt; background: none; margin:0;
+}
 
