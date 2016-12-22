@@ -50,3 +50,7 @@ span.amarillo{color:#ECDE21;font-family:'masqueregular'}
 .si{vertical-align:super}
 .numero{font-family:'masqueregular'}
 .nonumero{font-family:'dream_mmaregular'}
+a.disabled {
+   pointer-events: none;
+   cursor: wait !important;
+}
