@@ -55,8 +55,14 @@ a.disabled {
    cursor: wait !important;
 }
 .masque{font-family:'masqueregular';}
+<<<<<<< HEAD
 .listasinborde li{border-bottom: none !important}
 .margenlista li{margin: 10px 0;}
 
 
 
+=======
+.listasinborde li{
+	border:none !important;
+}
+>>>>>>> c6af9f1bec9d80d801181cd6e9e279af49eb8518
